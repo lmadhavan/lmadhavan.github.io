@@ -1,0 +1,24 @@
+title: Madhavan Lakshminarayanan
+description: ""
+domain: lmadhavan.com
+url: https://lmadhavan.com
+baseurl: ""
+permalink: /:year/:month/:day/:title/
+
+google_analytics: G-SH2GD7SV1G
+
+webmaster_verifications:
+  google: fPSEkScWBWuTl-kPOhKEVtZaMbu_IISMF5ljHkJkKV0
+  bing: 315B902BEC4B8C5C00217C215D4C8A6F
+
+theme: minima
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+  - vendor

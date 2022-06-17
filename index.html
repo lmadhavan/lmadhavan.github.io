@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="home">
+    <p>
+        <small>
+            Hey there, I'm Madhavan and I write software. On this site, you'll find my personal software projects as well as articles on programming and technology.
+            You can read more <a href="/about/">about me</a>, check out my <a href="/fotografix/">photo editing app</a> or browse through my blog posts below.
+        </small>
+    </p>
+
+    <h2>Posts</h2>
+
+    <ul class="post-list">
+        {% for post in site.posts %}
+        <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h3>
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                </a>
+            </h3>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

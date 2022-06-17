@@ -1,0 +1,55 @@
+/* Adapted from https://htmlcssfreebies.com/pure-html-css-tabs/ */
+
+.tabs-block {
+    display: flex;
+    margin: 1rem -1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.tabs label {
+    display: flex;
+    order: 1;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 0.25rem 0;
+    margin: 0 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all ease 0.2s;
+    border-bottom: 3px solid transparent;
+}
+
+.tabs .tab {
+    order: 9;
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    display: none;
+    padding: 0.5rem 1rem;
+}
+
+.tabs .tab > *:not(:last-child) {
+    margin-bottom: 0.8rem;
+}
+
+.tabs [type=radio] {
+    display: none;
+}
+
+.tabs [type=radio]:checked + label {
+    background-color: #fff;
+    color: #0067b8;
+    border-bottom: 3px solid #0067b8;
+}
+
+.tabs [type=radio]:checked + label + .tab {
+    display: block;
+}
