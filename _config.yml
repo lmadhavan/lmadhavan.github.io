@@ -15,6 +15,9 @@ theme: minima
 plugins:
   - jekyll-feed
 
+feed:
+  posts_limit: 5
+
 exclude:
   - Gemfile
   - Gemfile.lock
