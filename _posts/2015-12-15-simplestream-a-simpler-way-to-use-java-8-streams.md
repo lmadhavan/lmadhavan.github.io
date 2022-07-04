@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "SimpleStream: a simpler way to use Java 8 Streams"
-category: Programming
 tags: java
 ---
 

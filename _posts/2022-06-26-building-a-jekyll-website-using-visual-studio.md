@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Building a Jekyll website using Visual Studio"
-category: Programming
 tags: jekyll visual-studio
 ---
 

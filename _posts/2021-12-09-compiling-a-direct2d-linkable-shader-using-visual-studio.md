@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Compiling a Direct2D linkable shader using Visual Studio"
-category: Programming
-tags: direct2d shader visual-studio
+title: "How to compile a Direct2D linkable shader in Visual Studio"
+tags: direct2d visual-studio
 ---
 
 Effect shader linking is a Direct2D optimization that links multiple shaders together so that they can be rendered in a single pass. If you're writing custom shaders, you want to ensure that they are linking compatible in order to take advantage of this optimization. The [official documentation](https://docs.microsoft.com/en-us/windows/win32/direct2d/effect-shader-linking) explains how to author and compile such effects, however the default HLSL build in Visual Studio does not provide support for linking-compatible shaders. Instead, you need to configure a custom build step to do this, which is what this post will walk you through.

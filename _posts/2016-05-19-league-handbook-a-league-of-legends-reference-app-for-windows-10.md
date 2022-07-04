@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "League Handbook: a League of Legends reference app for Windows 10"
-category: Software
 tags: league-of-legends
 image: /images/league-handbook.png
 ---

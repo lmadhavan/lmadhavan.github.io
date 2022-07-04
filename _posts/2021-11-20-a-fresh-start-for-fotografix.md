@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "A fresh start for Fotografix"
-category: Software
 tags: fotografix
 ---
 
