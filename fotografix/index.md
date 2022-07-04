@@ -7,6 +7,11 @@ image: /fotografix/fotografix.jpg
 ---
 
 <style>
+main {
+    font-size: 16px;
+    font-family: var(--system-font);
+}
+
 main h1 {
     font-size: 48px;
     text-align: center;
