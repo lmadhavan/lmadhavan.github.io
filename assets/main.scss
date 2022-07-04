@@ -116,6 +116,19 @@ hr {
     font-family: var(--heading-font);
 }
 
+#related-posts {
+    background: #f9f9f9;
+    padding: 1em;
+}
+
+#related-posts .post-link {
+    font-size: 14px;
+}
+
+#related-posts h3, #related-posts ul, #related-posts li {
+    margin: 0;
+}
+
 .svg-icon {
     vertical-align: inherit;
     padding-top: 20px;

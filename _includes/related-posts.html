@@ -1,0 +1,25 @@
+{%- for tag in page.tags -%}
+    {%- assign tag_posts = site.tags[tag] | slice: 0, 3 | where_exp: "post", "post.id != page.id" -%}
+    {%- if related_posts -%}
+        {%- assign related_posts = related_posts | concat: tag_posts -%}
+    {%- else -%}
+        {%- assign related_posts = tag_posts -%}
+    {%- endif -%}
+{%- endfor -%}
+{% assign related_posts = related_posts | uniq -%}
+
+{% unless related_posts == empty %}
+<div id="related-posts">
+    <h3>Related posts</h3>
+
+    <ul class="post-list">
+        {% for post in related_posts %}
+        <li>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endunless %}
