@@ -87,7 +87,7 @@ h2.tagline {
     <input type="radio" name="tabs" id="tab2" />
     <label for="tab2">Selective color adjustments</label>
     <div class="tab">
-        <p>HSL sliders allow you to make independent adjustments to different color ranges. You can enhance, mute or even completely change specific colors in your photo.</p>
+        <p>HSL sliders allow you to make independent adjustments to different color ranges. You can enhance, mute or even completely change specific colors in your photo. <a href="{% link _posts/2022-07-10-how-to-make-selective-color-adjustments-in-fotografix.md %}">Learn more</a></p>
     </div>
     <input type="radio" name="tabs" id="tab3" />
     <label for="tab3">Hardware accelerated rendering</label>
