@@ -9,3 +9,8 @@ if (location.search == '?ref=fotografix141') {
 
 	location.replace('/fotografix/?utm_source=fotografix&utm_medium=app&utm_campaign=fotografix-1.x&utm_content=' + cta);
 }
+
+// redirect old links to Fotografix
+else if (location.href.includes('/fotografix')) {
+	location.replace('/fotografix/');
+}
