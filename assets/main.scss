@@ -137,3 +137,16 @@ hr {
 .svg-icon:hover {
     fill: #000;
 }
+
+img.float-right {
+    display: block;
+    margin: auto;
+    max-width: 250px;
+}
+
+@media screen and (min-width: 800px) {
+    img.float-right {
+        float: right;
+        margin: 1em;
+    }
+}

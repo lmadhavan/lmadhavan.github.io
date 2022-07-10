@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "How to batch resize photos in Fotografix"
+title: "How to resize photos in Fotografix"
+description: "Fotografix is a free photo editor for Windows that makes it easy to resize multiple photos at once."
 tags: fotografix
 ---
 
 Want to resize a bunch of photos so you can upload or share them? [Fotografix](/fotografix/) is a free photo editor for Windows that makes it easy to resize multiple photos at once. You can specify the exact size you want and optionally adjust the output quality as well.
 
-<img src="/images/fotografix-batch-resize.png" width="250" style="float: right; margin: 1em">
+![Export dialog](/images/fotografix-batch-resize.png){:.float-right}
 
 Here's how to batch resize photos in Fotografix:
 
