@@ -161,7 +161,7 @@ h2.tagline {
 
 <details>
     <summary>How can I report a problem or suggest a feature?</summary>
-    <p>Issues are tracked on <a href="https://github.com/lmadhavan/fotografix/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc">GitHub</a>. Please check to see if your problem or feature request already has an open issue before creating a new one.</p>
+    <p>Join the <a href="https://github.com/lmadhavan/fotografix/discussions">Fotografix community</a> over at GitHub to ask questions, share ideas and participate in other discussions.</p>
 </details>
 
 <details>
